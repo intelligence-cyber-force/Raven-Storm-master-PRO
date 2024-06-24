@@ -47,7 +47,7 @@ if attempt != password:
     sys.exit(1)
 
 # Trial period check
-trial_file = 'start.txt'
+trial_file = 'bin.txt'
 
 # Check if the trial start file exists
 if os.path.exists(trial_file):
